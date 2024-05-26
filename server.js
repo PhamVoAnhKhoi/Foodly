@@ -17,4 +17,5 @@ app.use("/api/category", CategoryRoute);
 
 app.listen(process.env.PORT || 6013, () => {
   console.log(`Example app listening at http://localhost:${process.env.PORT}`);
+  console.log("Foodly Database Connected");
 });
